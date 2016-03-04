@@ -1,0 +1,88 @@
+﻿<div ng-controller="SidebarController as vm">
+    <ht-sidebar when-done-animating="vm.sidebarReady()">
+        <!--
+        <div class="sidebar-filler"></div>
+        <div class="sidebar-dropdown"><a href="#">Menu</a></div>
+        <div class="sidebar-inner">
+            <div class="sidebar-widget"></div>
+            <ul class="navi">
+                <li class="nlightblue fade-selection-animation" ng-class="vm.isCurrent(r)"
+                    ng-repeat="r in vm.navRoutes">
+                    <a ui-sref="{{r.name}}"
+                       ng-bind-html="r.settings.content"></a>
+                </li>
+            </ul>
+        </div>
+        -->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header" ng-repeat="item in vm.menuArr.userData">
+                        <div class="dropdown profile-element"> <span>
+                            <img alt="image" class="img-circle img-profile" ng-src="{{item.userImage}}">
+                             </span>
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> <span class="block m-t-xxs"> <strong class="font-bold">{{item.userName}}</strong>
+                             </span> <span class="text-muted text-xs block">{{item.userPosition}} <b class="caret"></b></span> </span> </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li  ng-repeat="item in vm.menuArr.userMenu">
+                                    <a ui-sref="{{item.link}}">{{item.name}}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="login.html">Logout</a></li>
+                            </ul>
+                        </div>
+                        <div class="logo-element">
+                            <img src="images/Fav_White.png">
+                        </div>
+                    </li>
+                    <li ng-repeat="item in vm.menuArr.program">
+                        <div class="global-selector flex">
+                            <div class="global-selector-active">
+                                <div class="global-selector-label">Program:</div>
+                                <div class="global-selector-name">{{item.name}}</div>
+                            </div>
+                            <div class="global-selector-logo">
+                                <img ng-src="{{item.image}}" >
+                                <span class="fa arrow"></span>
+                            </div>
+                        </div>
+                     </li>
+                     <li ng-repeat="item in vm.menuArr.increment">
+                        <div class="global-selector m-b-md flex">
+                            <div class="global-selector-active">
+                                <div class="global-selector-label">Increment:</div>
+                                <div class="global-selector-name">{{item.name}}</div>
+                            </div>
+                            <span class="fa arrow"></span>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="nav metismenu">
+                     <li>
+                        <h4 class="nav-subtitle">Favorites</h4>
+                    </li>
+                    <li ng-repeat="item in vm.menuArr.favorites">
+                            <a ng-href="{{item.link}}"><i class="fa {{item.className}}"></i> <span class="nav-label">{{item.name}}</span></a>
+                    </li>
+                </ul>
+                <ul class="nav metismenu">
+                    <li>
+                        <h4 class="nav-subtitle">Plan</h4>
+                    </li>
+                    <li ng-repeat="item in vm.menuArr.plan">
+                            <a ng-href="{{item.link}}"><i class="fa {{item.className}}"></i> <span class="nav-label">{{item.name}}</span></a>
+                    </li>
+                </ul>
+                <ul class="nav metismenu">
+                    <li>
+                        <h4 class="nav-subtitle">Track</h4>
+                    </li>
+                    <li ng-repeat="item in vm.menuArr.track">
+                            <a ng-href="{{item.link}}"><i class="fa {{item.className}}"></i> <span class="nav-label">{{item.name}}</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </ht-sidebar>
+</div>
+

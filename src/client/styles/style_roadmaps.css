@@ -1,0 +1,252 @@
+html,body {
+	height: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.marginRight{
+ 	margin-right: 5px;
+}
+
+.primaryColor {
+	color: #0097e1;	
+}
+
+.zeroPadding {
+	padding: 0;
+}
+
+.paddingContent {
+	padding: 0 2.5em;
+}
+
+.whiteBorder {
+	border-left: solid 1px #fff !important;
+}
+
+.lightGrayColor {
+	color: #b5b4b4;
+	font-weight: normal;
+}
+
+.color787677 {
+	color: #787677;
+}
+/*slide style begin*/
+#dateSlider {
+	position: relative;
+}
+.rangeSlider_container {
+	position: absolute;
+}
+.rangeSlider_innerBar {
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	background: #fff;
+	padding: 10px 0 0 0;
+    border-bottom: solid 1px #eaeaea;
+}
+.ruler_tick {
+	display: inline-block;
+	float: left;
+	border-bottom: solid 1px #aeacac;
+	
+}
+.rangeSlider_bar {
+	position: absolute; top: 0px; width: 284px; left: 205px;
+}
+.rangeSlider_handle .rangeSlider_leftHandle {
+	position: absolute; top: 0px; left: 205px;
+}
+.rangeSlider_handle .rangeSlider_rightHandle {
+	position: absolute; top: 0px; left: 479px;
+}
+.ui_rangeSlider_bar {
+	position: absolute; top: 0px; width: 246px; left: 243px;
+}
+.ui_rangeSlider_handle .ui_rangeSlider_leftHandle {
+	position: absolute; top: 0px; left: 243px;
+}
+.ui_rangeSlider_handle .ui_rangeSlider_rightHandle {
+	position: absolute; top: 0px; left: 479px;
+}
+.ui_rangeSlider_arrow .ui_rangeSlider_leftArrow {
+	position: absolute; left: 0px;
+}
+.ui_rangeSlider_arrow .ui_rangeSlider_rightArrow {
+	position: absolute; right: 0px;
+}
+.ui_rangeSlider_label .ui_rangeSlider_leftLabel {
+	position: absolute; display: block; right: 830px;
+}
+.ui_rangeSlider_label .ui_rangeSlider_rightLabel {
+	position: absolute; display: block; right: 594px;
+}
+.ui_rangeSlider_dataLabel {
+	text-align: center;
+}
+
+.sliderContainer {
+	margin-bottom: 120px;
+	position: relative;
+}
+.ruler_tick_inner {
+	color: #929090;
+	padding-left: 10px;
+	text-transform: uppercase;
+	border-left: solid 1px #aeacac;
+	
+}
+.ruler_tick_label {
+	padding-left: 5px;
+	
+}
+.ruler_scale {
+	
+}
+.ui_rangeSlider_arrow {
+    cursor: pointer;
+    width: 14px;
+}
+.ui_rangeSlider_leftArrow .ui_rangeSlider_arrow_inner {
+	 
+}
+.ui_rangeSlider_arrow_inner {
+	height: 0;
+    
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+.rangeSlider_handle {
+	position: absolute;
+	top: 45px;
+}
+.rangeSlider_handle.rangeSlider_monthHandle {
+	top: 1em;
+	color:#333;
+}
+.rangeSlider_leftHandle {
+	left: 13%;
+}
+.rangeSlider_rightHandle {
+	left: 27%;
+}
+
+.ui_rangeSlider_label {
+	margin-left: -10px;
+}
+.rangeSlider_exmpl1Handle {
+    left: 30%;
+    
+}
+.inactive, .inactive .rangeSlider_handle_inner .btn, .inactive .rangeSlider_handle_inner .btn:hover {
+	color: #a2a0a0;
+}
+.rangeSlider_exmpl2Handle {
+    left: 45%;
+}
+.rangeSlider_exmpl3Handle {
+    left: 70%;
+}
+.ui_rangeSlider_label_value {
+	color: #c8c6c6;
+}
+.rangeSlider_handle_inner .btn {
+	background: none;
+	padding: 0;
+}
+.rangeSlider_handle_inner .btn:hover {
+	color: #0097e1;	
+}
+/*slide style end*/
+
+.dataRange .ui_rangeSlider_label{
+	background: none;
+}
+
+.roadmapWrapper .ui-rangeSlider-label, .roadmapWrapper .ui-rangeSlider-arrow {
+	display: none !important;
+}
+.roadmapWrapper .ui-rangeSlider .ui-rangeSlider-innerBar {
+	background: #f3f0f1;
+}
+.roadmapWrapper .ui-rangeSlider .ui-rangeSlider-bar {
+	background: #a2a0a0;
+	opacity: 0.4;
+}
+.roadmapWrapper .ui-rangeSlider-withArrows .ui-rangeSlider-container {
+	margin: 0; 
+}
+.roadmapWrapper .ui-rangeSlider .ui-rangeSlider-innerBar {
+	height: 10px;
+}
+.roadmapWrapper .ui-rangeSlider .ui-rangeSlider-bar {
+	height: 14px;
+}
+.roadmapWrapper .ui-rangeSlider .ui-rangeSlider-handle {
+	height: 14px;
+}
+.headerMenuWrapper .glyphicon-th-list {
+	transform: rotate(90deg);
+}
+.headerMenuWrapper .btn-default.activeBtn {
+	background: #322f2f;
+    color: #ffffff;
+}
+
+
+
+/*test*/
+.monthView .col-lg-12 {
+	padding-left: 2px;
+    padding-right: 2px;
+}
+.monthView .col-lg-1 {
+	padding-left: 2px;
+    padding-right: 2px;
+}
+.monthView .col-lg-3 {
+	padding-left: 2px;
+    padding-right: 2px;
+}
+/*test*/
+.montName.active.hidden {
+	display: none;
+}
+
+.weeksView01.hidden {
+	display: none;
+}
+.weeksView01.active {
+	display: block;
+}
+
+.noBootS .rangeSlider_container {
+	width: 100%
+}
+
+.noBootS .rangeSlider_handle.rangeSlider_monthHandle {
+	top: 3.2em;
+}
+
+.noBootS .rangeSlider_innerBar {
+	width: 100%
+}
+.noBootS .ruler_tick {
+	width: 8.3%;
+}
+.noBootS .ruler_scale {
+	width: 50%;
+	float: left;
+}
+.row-fluid{
+    white-space: nowrap;
+}
+.row-fluid .col-lg-3{
+    display: inline-block;
+}

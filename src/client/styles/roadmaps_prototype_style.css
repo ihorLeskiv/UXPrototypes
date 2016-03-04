@@ -1,0 +1,583 @@
+.months_12_div .allYear {
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+.months_12_div .allYear h5{
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.months_12_div .allYear ul {
+    width: 100%;
+}
+
+
+.week {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    border-right: solid 1px #aeacac;
+}
+.week:last-child {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    border-right: solid 0px #aeacac;
+}
+.weeksWrapper {
+    min-width: 250px;
+}
+
+
+
+
+/*timeLineTable*/
+.milestoneWrapper .timeLineTable th {
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 150px; 
+    border-right: 1px solid #aeacac;
+    font-size: 1em;
+    /* left: -2px; */
+}
+.milestoneWrapper .timeLineTable th:last-child {
+    border-right: none;
+} 
+/*timeLineTable*/
+.milestoneWrapper .timeLineTable .dDTr td{
+    border-top:none;
+    padding: 0;
+    margin:0;
+    line-height: 40px;
+    min-width: 37px; 
+}
+
+
+
+.milestoneWrapper .timeLineTable .dDTr .grid-item{
+    border-left: 1px solid #EAEAEA;
+    /*border-right: 1px solid #aeacac;*/
+    border-bottom: 1px solid #EAEAEA;
+    border-top: none;
+}
+
+
+/*.milestoneWrapper .timeLineTable .dDTr.last-sub-row .grid-item {
+    border-bottom: 1px solid #aeacac;
+
+}
+
+.milestoneWrapper .timeLineTable .dDTr.first-sub-row .grid-item {
+    border-top: 1px solid #aeacac;
+
+}*/
+
+.milestoneWrapper .timeLineTable .dDTr td.grid-item .table {
+    padding: 0;
+    margin:0; 
+}
+.draggable {
+    position: absolute;
+    background: #6EC762;
+	  /*border: 3px solid #006a00;*/
+    padding: 0;
+    margin:0;
+    line-height: 30px;
+    /* min-width: 120px; */
+    color: #fff;
+    top: 8px;
+    font-size: 0.8em;
+
+}
+
+.draggable.newitem{
+  color: #000000;
+}
+
+.timeLineTable .active td table {
+    background : #e3e3e3 !important;
+}    
+/*.timeLineTable .table {
+  background: transparent;
+}*/
+.timeLineTable .hover  {
+    background : #B4D7F7 !important;
+}
+
+.leftNavigation {
+   
+    border-right: none;
+}
+.leftNavigation:last-child {
+   
+    border-right: none;
+}
+.dataRange .table {
+  margin-bottom: 0;
+  overflow-x: hidden;
+}
+
+.leftNavigation.emptyTd {
+  border-top: none;
+  background: none;
+}
+.leftNavigation {
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.leftNavigation span {
+ font-weight: normal;
+ text-overflow: ellipsis;
+  
+}
+#sortableDis {
+  opacity: 1;
+  background: #F3F0F1;
+  border-right: 1px solid #aeacac;
+  margin-bottom: 0;
+}
+th.leftNavigation span {
+  background: none;
+  color: #787677;
+  display: block;
+  font-size: 14px;
+  margin-top: 0;
+  font-weight: bold;
+  padding: 0px 5px 0px;
+}
+.leftNavigation.emptyTd span {
+  background: none; 
+}
+/*sortable*/
+.sortableLeftNav .table {
+  margin-bottom: 0;
+  /*margin-top:1px;*/
+}
+/*sortable*/
+
+.nwgrip, .negrip {
+    width: 15px;
+    height: 100%;
+    display: none !important;
+    position: absolute;
+    top: 0%;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 7px;
+    cursor: e-resize;
+}
+
+  .milestone:hover .nwgrip, .milestone:hover .negrip{
+    display: block !important;
+
+  }
+
+.milestone {
+  opacity: 0.8;
+}
+
+.nwgrip {
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  
+}
+.negrip {
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  
+}
+.hoverActiveResiz  {
+  opacity: 0.7;
+}
+.hoverActiveResiz .nwgrip, .hoverActiveResiz .negrip {
+  display: block !important;
+  opacity: 1
+}
+
+.nwgrip.onTrack, .negrip.onTrack{
+    background: #035b03 url("../img/res_arrows_png.png") 3px center no-repeat;  
+}
+.nwgrip.atRisck , .negrip.atRisck {
+    background: #b34104 url("../img/res_arrows_png.png") 3px center no-repeat;
+}
+.nwgrip.slipped, .negrip.slipped {
+    background: #c40000 url("../img/res_arrows_png.png") 3px center no-repeat;
+}
+.nwgrip.onHold ,  .negrip.onHold {
+    background:   #286090 url("../img/res_arrows_png.png") 3px center no-repeat;
+}
+.negrip .nwgrip, .negrip .negrip{
+      right: 0;
+
+}
+.ui-resizable-nw {
+ 
+}
+
+
+.addItemDD {
+  padding: 10px;
+  border: solid 3px #322f2f ;
+}
+
+.addItemDD .close {
+  text-shadow: inherit;
+}
+.addItemDD .close:focus, .addItemDD .close:hover {
+  color: #F90404;
+}
+.addItemDD .dropdown {
+  border:solid 1px #dbd9d9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+}
+.addItemDD span {
+  
+  padding-bottom: 0; 
+  text-align: center;
+  
+
+
+}
+.addItemDD span.caret {
+  padding-top: 0;
+  padding-bottom: 0;  
+}
+
+.draggableItems {
+    background: #009a00 none repeat scroll 0 0;
+    line-height: 30px;
+    margin: 0;
+    min-width: 120px;
+    padding: 0;
+    position: absolute;
+}
+.addDDItems {
+  border: solid 2px #009a00;
+  background: no-repeat;
+  position: relative;
+  margin: 5px;
+  clear: left;
+  padding-left: 10px !important;
+  text-align: left !important;
+}
+
+.popoverExampleTwoHiddenContent span.addDDItems {
+  padding: 0;
+  position: relative;
+}
+.addItemsWrapperDD {
+  
+  background: #fff;
+  color: #000;
+}
+.addItemDD h5{
+  background: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #000;
+}
+
+.milestoneWrapper .timeLineTable .months_6_trWrapper th {
+  max-width: 302px !important;
+  min-width: 302px !important;
+}
+.months_6_td {
+  max-width: 5.3em !important;
+  min-width: 5.3em !important;
+}
+.months_6_view .draggable {
+  min-width: 240px;
+}
+
+
+.sprint-task-element, .draggable {
+    position: absolute;
+    padding: 0;
+
+    margin:0;
+    top: 4px;
+    line-height: 30px !important;
+    /* min-width: 120px; */
+    z-index: 999;
+    height: 36px !important;
+    padding-top: 3px;
+    cursor: move;
+}
+.sprint-task-element {
+    height: 40px !important;
+    cursor: move;
+}
+.onTrack {
+    background: #009a00;  
+}
+.atRisck {
+    background: #e76823;  
+}
+.slipped {
+    background: #ff3b3b;  
+}
+.onHold {
+    background: #0b7fb7;  
+}
+.drop-hover{
+	background-color: #eee;
+}
+.milestoneWrapper  .ui-rangeSlider-label {
+  display: none !important;
+}
+.sortableLeftNav.dDTr  {
+  cursor: n-resize;
+  
+}
+.dDTr {
+	position: relative;
+}
+
+
+.dDTr.roadmap-item td{
+  vertical-align: top;
+  border-top:1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7 !important;
+  border-left: 1px solid #E7E7E7;
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.dDTr.roadmap-item::last-child td{
+  vertical-align: top;
+  border-top:1px solid #E7E7E7;
+  border-bottom: none !important;
+}
+
+.parentItem .dDTr.roadmap-item td{
+  border-top:1px solid #AEACAC !important;
+  border-bottom: 1px solid #AEACAC !important;
+}
+
+.timeitem.hovered{
+	background-color: #ccc
+}
+
+.less768 {
+  margin: 10%;
+}
+
+.ui-sortable-helper {
+  border: dotted  2px #4b4849;
+  width: 100%;
+  min-width: 593%;
+  display: block;
+  padding-bottom: 42px;
+}
+
+.timeLineTable.disabledState {
+	opacity:0.5;
+}
+
+.vehicleItem {
+  border: none;
+  font-weight: bold;
+  background: none;
+  padding: 3px 5px;
+}
+
+.vehicleItem .glyphicon-star {
+  color: #0097e1;
+}
+.monthWeekWrapper ul {
+
+}
+.monthWeekWrapper ul li {
+  display: inline;
+  float: left;
+  list-style: none;
+  font-size: 12px;
+  font-weight: normal;
+  border-right: 1px solid #aeacac;
+  padding: 0 5px;
+}
+.monthWeekWrapper ul li:last-child {
+  border: none;
+}
+
+
+.dataValueWrapper.months_12_trWrapper th.weeksTH {
+  min-width: 210px;
+}
+.milestoneWrapper .timeLineTable .dDTr.weeksTD td {
+  min-width: 52px;
+}
+
+
+.weekViewsEmptyTD {
+  height: 52px;
+}
+
+.months_6_trWrapper .monthWeekWrapper ul {
+  width: 300px;
+}
+.months_6_trWrapper .monthWeekWrapper ul li {
+  padding: 0 17px;
+  width: auto;
+}
+
+.monthWeekWrapper {
+  display: none;
+}
+/*.weeksTH .monthWeekWrapper {
+  display: block;
+}*/
+
+.sprint-task-element span {
+  color: #fff;
+  position: relative;
+  top: 3px;
+}
+.roadMapResDateValue_left, .roadMapResDateValue_right, .roadMapResNameValue {
+  position: absolute;
+  font-size: 10px;
+  background: #d1cecf ;
+  opacity: 1;
+  z-index: 11111;
+  display: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0 14px;
+}
+
+.roadMapResDateValue_left {
+    margin-left: -73px;
+    margin-top: 5px;
+}
+.roadMapResDateValue_right {
+ margin-right: -73px;
+    right: 0;
+    top: 4px;
+}
+.roadMapResNameValue {
+    left: 0;
+    top: -20px;
+	height: 20px;
+ }
+
+ .roadMapResNameValue span {
+  display: block;
+  line-height: 5px;
+  padding-top: 6px;
+  color: #333;
+ }
+
+
+ .hoverActiveResiz .roadMapResDateValue_left,  .hoverActiveResiz .roadMapResDateValue_right,  .hoverActiveResiz .roadMapResNameValue {
+  display: block !important;
+ }
+
+ .monthYearWrapper span.dropdown-toggle{
+	cursor: pointer;
+  font-size: 10px;
+ }
+ 
+.monthYearWrapper ul.dropdown-menu{
+	top: 0;
+	left: auto;
+	width: auto;
+	top: 16%;
+}
+
+.leftNavigation .dropdown-menu {
+	 top: auto;
+}
+ 
+ .epicFeatID {
+    max-width: 72px !important;
+    width: 80px;
+}
+ 
+ #timelineHeader{
+	position: relative;
+}
+
+.sprintTasksWrapper{
+	position: relative;
+	/* display: table;  */
+}
+ 
+ .ui-state-highlight{
+  background-color: #cfc;
+ }
+ 
+ #currentDaу {
+border: 2px solid #fcf814;
+
+    height: 100%;
+    /*left: 200px;*/
+    opacity: 0.3;
+    position: absolute;
+    z-index: 9;
+}
+
+.secondDate {
+  width: 100%
+}
+
+.secondDate.table > tbody > tr > td {
+  padding: 0;
+  background: #F3F0F1;
+
+}
+.secondDate.table > tbody > tr > td {
+  border-top: none;
+}
+.secondDate div {
+  font-size: 65%;
+  font-weight: bold;
+}
+#timelineHeader .dataValueWrapper .timelineItem {
+  padding: 0;
+}
+
+.parentItem {
+      background: #e7e7e7;
+}
+.parentItem td{
+      padding: 5px 0 0 10px !important;
+      margin: 0;
+      vertical-align: center !important;
+}
+
+.parentItem td{
+  /*border-top: 1px solid #AEACAC !important;*/
+  /*border-bottom: 1px solid #E7E7E7 !important;*/
+}
+
+.dDTr.parentTR td .table td{
+  line-height: 30px !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.parentTR .table{
+  background-color: #e7e7e7;
+}
+
+.col-md-3 .row #sortableDis .dDTr th.leftNavigation span {
+  font-size: 13px;
+}
+.col-sm-3 .row #sortableDis .dDTr th.leftNavigation span {
+  font-size: 10px;
+}
+
+.milestoneWrapper .table th {
+  line-height: 13px;
+}
+.ui-sortable {
+  min-width: 300px;
+}

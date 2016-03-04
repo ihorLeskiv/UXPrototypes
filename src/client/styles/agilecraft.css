@@ -1,0 +1,208 @@
+/*Helper Classes*/
+
+.flex {
+  display: flex;
+}
+
+.scrollable {
+  overflow-y: scroll;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+/*End Helper Classes*/
+
+.global-selector {
+  padding: 9px 23px;
+  background-color: #222425;
+  justify-content: space-between;
+  border-top: solid 1px #2B2E30;
+}
+
+.global-selector-name {
+  font-family: lato;
+  font-size: 16px;
+  color: #069DE2;
+  font-weight: 300;
+}
+
+.global-selector-logo img {
+  width: 30px;
+  height: auto;
+  border-radius: 3px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.global-selector .arrow {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+/*Button Styles*/
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.btn-primary {
+  background-color: #069DE2;
+}
+.btn-primary:hover {
+  background-color: #108EC7;
+  border-color: #108EC7;
+}
+.btn-default {
+  background-color: #EAEAEA;
+  color: #4A4A4A;
+}
+.btn-text {
+  background-color: white;
+  color: #676a6c;
+}
+.btn-text.active {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.fa-plus {
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+.mini-navbar .global-selector-label{
+  display: none;
+}
+.mini-navbar .global-selector-name{
+  display: none;
+}
+.mini-navbar .arrow{
+  display: none;
+}
+.mini-navbar .nav-subtitle{
+  display: none;
+}
+.mini-navbar .global-selector{
+  padding: 11px 14px;
+}
+.mini-navbar > li > a{
+  padding: 8px 20px 8px 20px;
+}
+
+/*Intercom Styles*/
+
+.intercom-powered-by {
+  opacity: 0 !important;
+}
+.intercom-launcher-button {
+  background-color: #069DE2 !important;
+  border: none !important;
+}
+
+/*End Intercom Styles*/
+
+.view-wrapper {
+  margin-top: 15px;
+  height: calc(100vh - 135px);
+}
+
+.tier-2 {
+  background-color: #fff;
+}
+
+.btn-group>.btn+.dropdown-toggle {
+  background-color: #1895CE
+}
+
+.pill {
+  padding: 2px 5px;
+  background-color: grey;
+  border-radius: 3px;
+  height: 20px;
+  margin: 8px 3px;
+  color: white;
+}
+.pill.grey {
+  background-color: #A9B2BD;
+}
+.pill.blue {
+  background-color: #069DE2;
+}
+.pill.red {
+  background-color: #FF4E4D;
+}
+.pill.orange {
+  background-color: #FF6D27;
+}
+.pill.green {
+  background-color: #6EC762;
+}
+.pill.yellow {
+  background-color: yellow;
+}
+.pill.dark-blue {
+  background-color: #0D2C54;
+}
+
+.avatar {
+
+}
+
+.img-avatar {
+  width: 30px;
+  margin: 4px 8px;
+}
+.grid-metric {
+  height: 100%;
+  padding: 10px;
+  min-width: 40px;
+  text-align: center;
+  border-left: solid 1px #E8E8E8;
+}
+
+.list-group-meta {
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+.roadmap-wrapper {
+  width: calc(100% - 220px);
+  float: right;
+  background-color: #F7FBFF;
+  height: 100%;
+  position: absolute;
+  left: 220px;
+}
+
+.roadmaps-view {
+  background-color: #fff;
+  height: calc(100vh - 122px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  border: solid 1px #eaeaea;
+  margin-top: 15px;
+  font-family: lato;
+}

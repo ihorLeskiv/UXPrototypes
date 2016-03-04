@@ -1,0 +1,311 @@
+.milestoneWrapper .panel, .milestoneWrapper .panel-footer {
+	background: #f3f0f1;
+	border-radius: 0;
+	box-shadow: none;
+}
+.milestoneWrapper .panel-footer, .milestoneWrapper .panel-body {
+	border-top: 1px solid #fff;
+}
+.milestoneWrapper .panel-body {
+	border-top: 2px solid #fff;
+	font-size: 12px; 
+	background: #fff;
+  border: solid 1px #F1F1F1;
+  margin: -1px;
+  font-family: lato;
+}
+.milestoneWrapper .addPanel .panel-body {
+	background: #d9effa;
+	margin-top: 10px;
+}
+.milestoneWrapper .panel-heading {
+	border-radius: 0;
+	background: #2B2E30;
+	color: #fff;
+	font-weight: bold;
+	width: 100%;
+	float: left;
+	
+}
+.milestoneWrapper .panel-title {
+	font-size: 2em;
+}
+.milestoneWrapper .panel-default {
+    border-color: #fff;
+}
+.milestoneWrapper .panel-heading .btn-default {
+	background: #59595c;
+	color: #fff;
+	margin-top: 10px;
+}
+.milestoneWrapper .panel-heading .btn-default:hover {
+	background: #0097e1;
+	color: #fff;
+}
+.panel-body-title {
+	color: #787677;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+.milestoneWrapper .panel-body h5 {
+	color: #787677;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 1em;
+  font-family: lato;
+}
+.col-lg-12.progressBarMilestone {
+	padding: 0;
+	margin: 0;
+}
+.progressBarMilestone .progress {
+    background-color: #d3d1d1;
+    height: 20px;
+}
+.progressBarMilestone .progress-bar {
+    background-color: #aac1a8;
+}
+.progressBarMilestone .progress-bar span {
+    color: #000;
+}
+.milestoneWrapper .addPanel .panel-body-title {
+	color: #000;
+}
+.milestoneWrapper .addPanel .panel-title {
+    color: #0097e1;
+}
+.milestoneWrapper .addPanel .panel-heading .btn-primary {
+	margin-top: 10px;
+}
+.milestoneWrapper .addPanel .glyphicon {
+	margin-left: 5px;
+	font-size: 14px;
+}
+.milestoneWrapper .addPanel h5 {
+	text-align: center;	
+}
+.addImgMilestone {
+	text-align: center;	
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.addImgMilestone .btn-primary {
+	background: #daf0fb;
+	color: #1c97e1;
+	font-weight: bold;
+}
+.addPanel .btn.glyphicon {
+	background: none;
+	padding: 0;
+}
+
+.panel-heading.col-xs-12, .panel-heading.col-sm-12, .panel-heading.col-md-12{
+	text-align: center;
+}
+.valueData {
+	color: #000;
+	font-size: 1.2em;
+}
+
+.valueData.primaryColor {
+	 color: #0097e1;	
+}
+
+.milestoneWrapper .table th {
+	  color: #787677;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: none;
+    padding-bottom: 5px;
+}
+.milestoneWrapper .milestoneTable > tbody > tr > td {
+	 padding: 0 10px;
+	 border: none;
+}
+
+/*detail section begin */
+
+#blockWithDetaiL {
+    border-left: 1px solid #787677;
+    box-shadow: 0 0 7px 2px #787677;
+    padding: 20px 0;
+}
+
+#milestoneMoreDetailNavigWrapper h2 {
+ 	  margin-top: 0;
+ }
+ 
+ #milestoneMoreDetailNavigWrapper .table tr td {
+ 	  border-top: none;
+ }
+ 
+ #milestoneMoreDetailNavigWrapper button {
+ 	  background: none;
+ 	  border: none;
+ }
+ 
+ #milestoneMoreDetailNavigWrapper button.primaryColor {
+ 	  color: #0097e1;	
+ }
+ #milestoneMoreDetailNavigWrapper .col-lg-1.largeCustomWidth{
+ 	  width: 13%;	
+ }
+ #milestoneMoreDetailNavigWrapper .col-lg-1.smallCustomWidth{
+ 	  width: 6%;	
+ }
+ #milestoneMoreDetailNavigWrapper .col-lg-1.customPaddingTop {
+ 	  padding-top: 70px;
+ }
+ 
+ #milestoneMoreDetailNavigWrapper .inactive-sign {
+ 	  color: #e5e2e3  !important;
+ }
+ 
+ #milestoneMoreDetailNavigWrapper .addMoreDetailTable, #milestoneMoreDetailNavigWrapper .acceptanceCriteriaTable {
+ 	border-top: solid 2px #e4e3e3;
+ }
+  
+ #milestoneMoreDetailNavigWrapper .addMoreDetailTable td.lastTD {
+ 	  border-bottom: none;
+ }
+ 
+ #milestoneMoreDetailNavigWrapper .addFeatureContentSmall .dropdown {
+ 	  margin-top: 7px;
+ }
+  
+ #milestoneMoreDetailNavigWrapper h2 {
+ 	  font-size: 1.5em;
+ }
+ #milestoneMoreDetailNavigWrapper .lightGrayColor.glyphicon-open {
+ 	 transform: rotate(90deg);
+ }
+ #milestoneMoreDetailNavigWrapper h2 .glyphicon-pencil {
+ 	  font-size: 14px;
+ }
+ .milestoneImg img {
+ 	  height: 55px;
+    width: 150px;
+ }
+ #milestoneMoreDetailNavigWrapper .navigMilestoneButton .peginationMilestoButton {
+ 	background: #daf0fb none repeat scroll 0 0;
+    color: #0097e1;
+    margin-right: 2px;
+ }
+ #milestoneMoreDetailNavigWrapper .navigMilestoneButton .peginationMilestoButton:hover {
+    background-color: #286090;
+    color: #ffffff;
+ }
+ .featuresNav a{
+ 	font-size: 12px;
+ }
+  #milestoneMoreDetailNavigWrapper .customPaddingTop h2 {
+  	margin-bottom: 80px;
+  }
+ .highlightedTD {
+  	background: #0097e1;
+    border: solid 2px #0097e1 !important;
+  	color: #fff;
+  	text-align: center;
+  	width: 100px;
+  }
+#milestoneMoreDetailNavigWrapper .addMoreDetailTable tr td, #milestoneMoreDetailNavigWrapper .acceptanceCriteriaTable tr td {
+    border-top: solid 2px #e4e3e3;
+    border-bottom: solid 2px #e4e3e3;
+ }
+#milestoneMoreDetailNavigWrapper .addMoreDetailTable tr .highlightTD, #milestoneMoreDetailNavigWrapper .acceptanceCriteriaTable tr .highlightTD
+{
+  	background: #fff;
+  	color: #0097e1;
+  	text-align: center;
+  	width: 100px;
+  	border: solid 2px #0097e1 !important;
+  	
+  }
+ .unhighlightTD {
+  	background: #ff0000;
+    border-bottom: solid 2px #ff0000 !important;
+    border-left: solid 2px #ff0000 !important;
+    border-right: solid 2px #ff0000 !important;
+  	color: #fff;
+  	text-align: center;
+  	width: 100px;
+  }
+  #milestoneMoreDetailNavigWrapper .table tr {
+  	margin-bottom: 5px;
+  }
+  .progress100 {
+  	color: #009a00;
+  }
+  
+  
+  .progressTD {
+  	padding: 0 !important;
+    position: relative;
+    width: 100%;
+  }
+  .progressTD .progress{
+  	height: 40px;
+  	background-color: #fff;
+
+  }
+  .progressTitle{
+    color: #0097e1;
+    padding-left: 10px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+
+}
+.unhighlightPB {
+    background-color: #ffe6e6;
+}
+.highlightPB, .progress100 {
+    background-color: #e6f5e6;
+}
+#milestoneMoreDetailNavigWrapper .progress, #milestoneMoreDetailNavigWrapper .progress-bar {
+    box-shadow: none;
+}
+
+/*detail section end */
+.ui_rangeSlider_dataLabel_value {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+#scrollTest {
+    float: left;
+    height: 100px;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.months_12_div {
+    background: #F3F0F1 none repeat scroll 0 0;
+    height: auto;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.months_12_div .allYear {
+    display: inline-block;
+    height: 6em;
+    margin: 0.5em 0;
+    padding: 0;
+    text-align: center;
+    white-space: normal;
+    width: auto;
+}
+.milestone-card-container {
+  height: calc(100vh - 227px);
+  overflow-y: scroll;
+}
+.milestoneWrapper {
+  height: calc(100vh - 142px);
+}
+.ruler_tick_label {
+  font-size: 10px;
+}
